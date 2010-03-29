@@ -5,6 +5,7 @@ get '/' do
   haml :index
 end
 
-get '/stylesheets/style.css' do
-  sass :style
+get '/stylesheets/styles.css' do
+  sass :styles
 end
+
